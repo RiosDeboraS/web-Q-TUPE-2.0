@@ -1,0 +1,445 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<main class="hero">
+		<img src="/ChatGPT_Image_12_may_2026,_11_41_35.png" alt="" class="bg" />
+
+		<div class="content">
+			<img src="/ChatGPT_Image_12_may_2026,_11_30_34.png" alt="Modelo" class="girl" />
+
+			<h1>Bienvenida a tu tienda fav &lt;3</h1>
+			<p class="subtitle">¿Qué queres hacer?</p>
+
+			<div class="buttons">
+				<a href="https://quetupe.tiendanegocio.com/" class="btn btn-primary" data-transition>
+					<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+						<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+					</svg>
+					Comprar por la web
+				</a>
+
+				<a href="https://wa.me/595999123456" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-transition>
+					<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+					</svg>
+					Contactarme
+				</a>
+			</div>
+		</div>
+
+		<footer>
+			<p>Derechos reservados por <strong>Q' TUPÉ</strong></p>
+			<p>Creado por <strong>Nexar</strong> Estudio Creativo</p>
+		</footer>
+	</main>
+
+	<!-- Overlay de transición -->
+	<div class="glam-overlay" id="glamOverlay" aria-hidden="true">
+		<div class="glam-wipe"></div>
+		<div class="sparkles" id="sparkles"></div>
+		<div class="kiss-marks" id="kissMark">
+			<svg class="kiss kiss-1" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+				<path d="M40 52 C20 38, 5 28, 8 14 C10 4, 20 2, 28 8 C32 11, 36 16, 40 22 C44 16, 48 11, 52 8 C60 2, 70 4, 72 14 C75 28, 60 38, 40 52Z" fill="rgba(255,255,255,0.9)"/>
+			</svg>
+			<svg class="kiss kiss-2" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+				<path d="M40 52 C20 38, 5 28, 8 14 C10 4, 20 2, 28 8 C32 11, 36 16, 40 22 C44 16, 48 11, 52 8 C60 2, 70 4, 72 14 C75 28, 60 38, 40 52Z" fill="rgba(255,255,255,0.7)"/>
+			</svg>
+			<svg class="kiss kiss-3" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+				<path d="M40 52 C20 38, 5 28, 8 14 C10 4, 20 2, 28 8 C32 11, 36 16, 40 22 C44 16, 48 11, 52 8 C60 2, 70 4, 72 14 C75 28, 60 38, 40 52Z" fill="rgba(255,255,255,0.6)"/>
+			</svg>
+		</div>
+		<div class="glam-text">
+			<span class="glam-word">Preparando</span>
+			<span class="glam-dots">
+				<span>.</span><span>.</span><span>.</span>
+			</span>
+		</div>
+	</div>
+</Layout>
+
+<style>
+.hero {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	overflow: hidden;
+	background-color: #f4a7bb;
+}
+
+.bg {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 80px;
+}
+
+.girl {
+	width: clamp(280px, 32vw, 430px);
+	height: auto;
+	object-fit: contain;
+	margin-bottom: 10px;
+	filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.1));
+	animation: floatIn 0.7s cubic-bezier(.22,1,.36,1) both;
+}
+
+@keyframes floatIn {
+	from { opacity: 0; transform: translateY(32px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: clamp(2rem, 4vw, 4rem);
+	color: #c0134e;
+	text-align: center;
+	line-height: 1.1;
+	margin: 0 0 12px;
+	animation: fadeUp 0.6s 0.15s cubic-bezier(.22,1,.36,1) both;
+}
+
+.subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: clamp(1rem, 2vw, 1.5rem);
+	color: #c0134e;
+	text-align: center;
+	margin-bottom: 36px;
+	animation: fadeUp 0.6s 0.25s cubic-bezier(.22,1,.36,1) both;
+}
+
+@keyframes fadeUp {
+	from { opacity: 0; transform: translateY(16px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+
+.buttons {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 120px;
+	margin-top: 20px;
+	animation: fadeUp 0.6s 0.35s cubic-bezier(.22,1,.36,1) both;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	min-width: 340px;
+	height: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 1rem;
+	color: #fff;
+	background: #c0134e;
+	border: none;
+	border-radius: 14px;
+	text-decoration: none;
+	box-shadow: 0 4px 20px rgba(192, 19, 78, 0.3);
+	transition: all 0.2s ease;
+}
+
+.btn:hover {
+	background: #a00f40;
+	transform: translateY(-2px);
+	box-shadow: 0 8px 28px rgba(192, 19, 78, 0.4);
+}
+
+.btn:active {
+	transform: translateY(0);
+}
+
+footer {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 0.85rem;
+	color: #c0134e;
+	line-height: 1.5;
+}
+
+footer strong { font-weight: 700; }
+
+/* ─── OVERLAY DE TRANSICIÓN ─────────────────────────────── */
+
+.glam-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	pointer-events: none;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.glam-overlay.active {
+	pointer-events: all;
+	animation: overlayFadeIn 0.3s ease forwards;
+}
+
+.glam-overlay.exit {
+	animation: overlayFadeOut 0.4s ease forwards;
+}
+
+@keyframes overlayFadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes overlayFadeOut {
+	from { opacity: 1; }
+	to   { opacity: 0; }
+}
+
+.glam-wipe {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(135deg, #e8276a 0%, #f06292 40%, #f48fb1 70%, #fce4ec 100%);
+	transform: scaleX(0);
+	transform-origin: left center;
+}
+
+.glam-overlay.active .glam-wipe {
+	animation: wipeIn 0.55s cubic-bezier(.77,0,.18,1) forwards;
+}
+
+@keyframes wipeIn {
+	from { transform: scaleX(0); }
+	to   { transform: scaleX(1); }
+}
+
+/* Marcas de besos */
+.kiss-marks {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+.kiss {
+	position: absolute;
+	opacity: 0;
+}
+
+.kiss-1 {
+	width: 90px;
+	top: 22%;
+	left: 18%;
+	transform: rotate(-20deg);
+}
+
+.kiss-2 {
+	width: 65px;
+	top: 55%;
+	right: 20%;
+	transform: rotate(12deg);
+}
+
+.kiss-3 {
+	width: 50px;
+	bottom: 20%;
+	left: 30%;
+	transform: rotate(-8deg);
+}
+
+.glam-overlay.active .kiss-1 { animation: kissAppear 0.4s 0.35s ease forwards; }
+.glam-overlay.active .kiss-2 { animation: kissAppear 0.4s 0.5s  ease forwards; }
+.glam-overlay.active .kiss-3 { animation: kissAppear 0.4s 0.45s ease forwards; }
+
+@keyframes kissAppear {
+	0%   { opacity: 0; transform: scale(0.4) rotate(-20deg); }
+	60%  { opacity: 1; transform: scale(1.15) rotate(-20deg); }
+	100% { opacity: 1; transform: scale(1)    rotate(-20deg); }
+}
+
+/* Sparkles */
+.sparkles {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+.sparkle {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+	opacity: 0;
+	box-shadow: 0 0 6px 2px rgba(255,255,255,0.8);
+}
+
+.glam-overlay.active .sparkle {
+	animation: sparkleAnim var(--dur) var(--delay) ease-out forwards;
+}
+
+@keyframes sparkleAnim {
+	0%   { opacity: 0; transform: scale(0) translate(0, 0); }
+	30%  { opacity: 1; }
+	100% { opacity: 0; transform: scale(1) translate(var(--tx), var(--ty)); }
+}
+
+/* Texto central */
+.glam-text {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: clamp(1.4rem, 4vw, 2.2rem);
+	color: #fff;
+	text-shadow: 0 2px 16px rgba(192,19,78,0.4);
+	opacity: 0;
+	letter-spacing: 0.02em;
+}
+
+.glam-overlay.active .glam-text {
+	animation: textPop 0.4s 0.45s cubic-bezier(.34,1.56,.64,1) forwards;
+}
+
+@keyframes textPop {
+	from { opacity: 0; transform: scale(0.7); }
+	to   { opacity: 1; transform: scale(1); }
+}
+
+.glam-dots span {
+	display: inline-block;
+	animation: dotBounce 0.6s infinite alternate;
+}
+.glam-dots span:nth-child(2) { animation-delay: 0.15s; }
+.glam-dots span:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes dotBounce {
+	from { transform: translateY(0); }
+	to   { transform: translateY(-6px); }
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+
+@media (max-width: 1024px) {
+	.buttons { padding: 0 60px; }
+	.btn { min-width: 280px; }
+}
+
+@media (max-width: 768px) {
+	.hero { justify-content: center; }
+	.content { padding: 40px 20px 120px; }
+	.girl { width: 75vw; max-width: 320px; margin-bottom: 10px; }
+	h1 { font-size: 2rem; padding: 0 10px; }
+	.subtitle { font-size: 1.1rem; margin-bottom: 24px; }
+	.buttons {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+		padding: 0;
+		margin-top: 10px;
+	}
+	.btn {
+		width: 100%;
+		max-width: 340px;
+		min-width: unset;
+		height: 64px;
+		font-size: 0.95rem;
+	}
+	footer { font-size: 0.7rem; padding: 0 20px; bottom: 12px; }
+}
+</style>
+
+<script>
+const overlay = document.getElementById('glamOverlay') as HTMLElement;
+const sparklesContainer = document.getElementById('sparkles') as HTMLElement;
+
+// Genera sparkles aleatorios
+function createSparkles() {
+	sparklesContainer.innerHTML = '';
+	const count = 22;
+	for (let i = 0; i < count; i++) {
+		const el = document.createElement('div');
+		el.className = 'sparkle';
+		const x = Math.random() * 100;
+		const y = Math.random() * 100;
+		const tx = (Math.random() - 0.5) * 120;
+		const ty = (Math.random() - 0.5) * 120;
+		const dur = (0.5 + Math.random() * 0.7).toFixed(2) + 's';
+		const delay = (0.3 + Math.random() * 0.5).toFixed(2) + 's';
+		const size = 4 + Math.random() * 10;
+		el.style.cssText = `
+			left: ${x}%; top: ${y}%;
+			width: ${size}px; height: ${size}px;
+			--tx: ${tx}px; --ty: ${ty}px;
+			--dur: ${dur}; --delay: ${delay};
+		`;
+		sparklesContainer.appendChild(el);
+	}
+}
+
+function runTransition(href: string, isExternal: boolean) {
+	createSparkles();
+	overlay.classList.remove('exit');
+	overlay.classList.add('active');
+
+	// Navega tras la animación de entrada (700ms)
+	setTimeout(() => {
+		if (isExternal) {
+			window.open(href, '_blank', 'noopener,noreferrer');
+			// Cierra el overlay después de abrir el link externo
+			setTimeout(() => {
+				overlay.classList.add('exit');
+				setTimeout(() => overlay.classList.remove('active', 'exit'), 400);
+			}, 400);
+		} else {
+			window.location.href = href;
+		}
+	}, 750);
+}
+
+document.querySelectorAll<HTMLAnchorElement>('[data-transition]').forEach((btn) => {
+	btn.addEventListener('click', (e) => {
+		e.preventDefault();
+		const href = btn.getAttribute('href') ?? '/';
+		const isExternal = btn.hasAttribute('target');
+		runTransition(href, isExternal);
+	});
+	// Soporte para teclado (Enter / Espacio)
+	btn.addEventListener('keydown', (e) => {
+		if (e.key === 'Enter' || e.key === ' ') {
+			e.preventDefault();
+			const href = btn.getAttribute('href') ?? '/';
+			const isExternal = btn.hasAttribute('target');
+			runTransition(href, isExternal);
+		}
+	});
+});
+</script>
+</Layout>
